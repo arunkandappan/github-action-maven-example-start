@@ -16,6 +16,10 @@ jobs:
       with:
         java-version: 14
 
+    - name: Build a project with Maven
+      run: mvn -B package --file pom.xml
+     
+
         
     
   
